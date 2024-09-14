@@ -45,7 +45,7 @@ def temporary_copy(path):
 
 class TestReportPy3o(TransactionCase):
     def setUp(self):
-        super(TestReportPy3o, self).setUp()
+        super().setUp()
         self.env.user.image_1920 = PNG
         self.report = self.env.ref("report_py3o.res_users_report_py3o")
         self.py3o_report = self.env["py3o.report"].create(
