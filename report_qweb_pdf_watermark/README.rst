@@ -145,6 +145,7 @@ Contributors
 - Emiel van Bokhoven <emiel@360erp.nl>
 - Sander Lienaerts <sander.lienaerts@codeforward.nl>
 - Anjeel Haria
+- Deniz Gallo <dgallo@nuobit.com>
 
 Maintainers
 -----------

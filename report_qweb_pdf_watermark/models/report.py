@@ -1,5 +1,6 @@
 # © 2016 Therp BV <http://therp.nl>
 # Copyright 2023 Onestein - Anjeel Haria
+# Copyright 2025 NuoBiT - Deniz Gallo <dgallo@nuobit.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 from base64 import b64decode
 from io import BytesIO
@@ -44,10 +45,8 @@ class Report(models.Model):
 
     def _render_qweb_pdf(self, report_ref, res_ids=None, data=None):
         if not self.env.context.get("res_ids"):
-            return (
-                super()
-                .with_context(res_ids=res_ids)
-                ._render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
+            return super(Report, self.with_context(res_ids=res_ids))._render_qweb_pdf(
+                report_ref, res_ids=res_ids, data=data
             )
         return super()._render_qweb_pdf(report_ref, res_ids=res_ids, data=data)
 
