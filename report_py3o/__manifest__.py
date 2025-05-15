@@ -23,7 +23,7 @@
         "security/ir.model.access.csv",
         "views/py3o_template.xml",
         "views/ir_actions_report.xml",
-        "demo/report_py3o.xml",
     ],
+    "demo": ["demo/report_py3o.xml"],
     "installable": True,
 }
