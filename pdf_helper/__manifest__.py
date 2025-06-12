@@ -11,7 +11,7 @@
     "summary": "Provides helpers to work w/ PDFs",
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "maintainers": ["simahawk", "alexis-via"],
-    "website": "https://github.com/OCA/edi",
+    "website": "https://github.com/OCA/reporting-engine",
     "depends": [
         "base",
     ],
