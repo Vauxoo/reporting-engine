@@ -17,6 +17,6 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #. module: pdf_xml_attachment
-#: model:ir.model,name:pdf_xml_attachment.model_pdf_xml_attachment
+#: model:ir.model,name:pdf_xml_attachment.model_pdf_xml_tool
 msgid "PDF XML attachment"
 msgstr "Ayudante de PDF"
