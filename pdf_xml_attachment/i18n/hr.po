@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* pdf_helper
+# 	* pdf_xml_attachment
 #
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.17\n"
 
-#. module: pdf_helper
-#: model:ir.model,name:pdf_helper.model_pdf_helper
-msgid "PDF Helper"
+#. module: pdf_xml_attachment
+#: model:ir.model,name:pdf_xml_attachment.model_pdf_xml_attachment
+msgid "PDF XML attachment"
 msgstr "PDF Pomoćnik"

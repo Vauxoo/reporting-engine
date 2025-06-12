@@ -15,8 +15,8 @@ _logger = logging.getLogger(__name__)
 
 
 class PDFHelper(models.AbstractModel):
-    _name = "pdf.helper"
-    _description = "PDF Helper"
+    _name = "pdf.xml.tool"
+    _description = "PDF XML attachment"
 
     _PDF_PARSER_KLASS = PDFParser
 

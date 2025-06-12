@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* pdf_helper
+# 	* pdf_xml_attachment
 #
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: pdf_helper
-#: model:ir.model,name:pdf_helper.model_pdf_helper
-msgid "PDF Helper"
+#. module: pdf_xml_attachment
+#: model:ir.model,name:pdf_xml_attachment.model_pdf_xml_attachment
+msgid "PDF XML attachment"
 msgstr ""
