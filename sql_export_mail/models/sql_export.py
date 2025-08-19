@@ -3,7 +3,7 @@
 
 from datetime import datetime, timedelta
 
-from odoo import SUPERUSER_ID, _, api, fields, models
+from odoo import SUPERUSER_ID, api, fields, models
 from odoo.exceptions import UserError
 
 
@@ -39,10 +39,8 @@ class SqlExport(models.Model):
             "model_id": self.env.ref("sql_export.model_sql_export").id,
             "state": "code",
             "code": "model._run_all_sql_export_for_cron()",
-            "name": "SQL Export : %s" % self.name,
+            "name": f"SQL Export : {self.name}",
             "nextcall": datetime.now() + timedelta(hours=2),
-            "doall": False,
-            "numbercall": -1,
             "user_id": SUPERUSER_ID,
         }
 
@@ -52,7 +50,7 @@ class SqlExport(models.Model):
         # We need to pass cron_id in the cron args because a cron is not
         # aware of itself in the end method and we need it to find all
         # linked sql exports
-        write_vals = {"code": "model._run_all_sql_export_for_cron([%s])" % cron.id}
+        write_vals = {"code": f"model._run_all_sql_export_for_cron([{cron.id}])"}
         cron.write(write_vals)
         self.write({"cron_ids": [(4, cron.id)]})
 
@@ -123,7 +121,7 @@ class SqlExport(models.Model):
         for export in self:
             if export.query_properties_definition and export.mail_user_ids:
                 raise UserError(
-                    _(
+                    self.env._(
                         "It is not possible to execute and send a query "
                         "automatically by mail if there are parameters to fill"
                     )
@@ -134,7 +132,9 @@ class SqlExport(models.Model):
         for export in self:
             for user in export.mail_user_ids:
                 if not user.email:
-                    raise UserError(_("The user does not have any e-mail address."))
+                    raise UserError(
+                        self.env._("The user does not have any e-mail address.")
+                    )
 
     def get_email_address_for_template(self):
         """
