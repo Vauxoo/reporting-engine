@@ -46,7 +46,7 @@ Configuration
 
 You should reuse or create a Paperformat.
 
-|image|
+|conf_image_1|
 
 **Configure your Server action**
 
@@ -60,7 +60,7 @@ Create your label report :
 - In the 'Label Qweb Template' create or reuse a QWeb template for your
   label.
 
-|image1|
+|conf_image_2|
 
 **Importante Note**
 
@@ -68,26 +68,26 @@ Create your label report :
 design <https://github.com/OCA/reporting-engine/blob/14.0/report_label/reports/report_label.xml#L34>`__,
 the variable used in this QWeb template must be named record.
 
-.. |image| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/report_paperformat_label_form.png
-.. |image1| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/ir_actions_server.png
+.. |conf_image_1| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/report_paperformat_label_form.png
+.. |conf_image_2| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/ir_actions_server.png
 
 Usage
 =====
 
-- In the target model's tree view, select the records to print.
+- In the target model's list view, select the records to print.
 - Click *Action* and your label report action name.
 - Select the number of labels per record to print, and click Print.
 
 you can optionaly define an offset
 
-|image|
+|usage_image_1|
 
 The items will be printed in a pdf document.
 
-|image1|
+|usage_image_2"|
 
-.. |image| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/report_label_wizard_form.png
-.. |image1| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/report_result.png
+.. |usage_image_1| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/report_label_wizard_form.png
+.. |usage_image_2"| image:: https://raw.githubusercontent.com/OCA/reporting-engine/18.0/report_label/static/description/report_result.png
 
 Known issues / Roadmap
 ======================
