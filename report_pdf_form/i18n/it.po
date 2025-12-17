@@ -6,19 +6,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-12-17 10:42+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid ""
 "<code>env</code>: environment from the record on which the report is printed"
 msgstr ""
+"<code>env</code>: ambiente del record su cui viene stampato il resoconto"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
@@ -26,11 +29,13 @@ msgid ""
 "<code>float_compare()</code>: utility function to compare floats based on a "
 "specific precision"
 msgstr ""
+"<code>float_compare()</code>: funzione di utilità per confrontare i numeri "
+"digitali in base a una precisione specifica"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid "<code>record</code>: record on which the report is printed"
-msgstr ""
+msgstr "<code>record</code>: record su cui viene stampato il resoconto"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
@@ -38,73 +43,77 @@ msgid ""
 "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
 "<code>timezone</code>: useful Python libraries"
 msgstr ""
+"<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
+"<code>timezone</code>: librerie Python utili"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__help
 msgid "Action Description"
-msgstr ""
+msgstr "Descrizione azione"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__name
 msgid "Action Name"
-msgstr ""
+msgstr "Nome azione"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__type
 msgid "Action Type"
-msgstr ""
+msgstr "Tipo azione"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__binding_model_id
 msgid "Binding Model"
-msgstr ""
+msgstr "Modello collegamento"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__binding_type
 msgid "Binding Type"
-msgstr ""
+msgstr "Tipo collegamento"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__binding_view_types
 msgid "Binding View Types"
-msgstr ""
+msgstr "Tipi vista collegamento"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__code
 msgid "Code"
-msgstr ""
+msgstr "Codice"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__context
 msgid "Context Value"
-msgstr ""
+msgstr "Valore context"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__context
 msgid ""
 "Context dictionary as Python expression, empty by default (Default: {})"
 msgstr ""
+"Dizionario context come espressione Python, predefinito come vuoto (Default: "
+"{})"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__create_uid
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__create_uid
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creato da"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__create_date
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__create_date
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creato il"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__display_name
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__display_name
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form_field__odoo_field_value
@@ -112,11 +121,13 @@ msgid ""
 "Dot-separated path to field from the record, e.g. partner_id.name, or python"
 " code"
 msgstr ""
+"Percorso separato da punti al campo dal record, ad esempio partner_id.name o "
+"codice Python"
 
 #. module: report_pdf_form
 #: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__dotted_path
 msgid "Dotted field path"
-msgstr ""
+msgstr "Percorso di campo punteggiato"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
@@ -124,68 +135,70 @@ msgid ""
 "Dotted field path: Can be used to access atomic fields and go through "
 "Many2one relations with automatic formatting."
 msgstr ""
+"Percorso del campo punteggiato: può essere utilizzato per accedere ai campi "
+"atomici e scorrere le relazioni Many2one con formattazione automatica."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__encode_error_handling
 msgid "Encode Error Handling"
-msgstr ""
+msgstr "Gestione errore codifica"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__encoding
 msgid "Encoding"
-msgstr ""
+msgstr "Codifica"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__encoding
 msgid "Encoding to be applied to the generated CSV file. e.g. cp932"
-msgstr ""
+msgstr "Codifica da applicare al file CSV generato. Es. cp932"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__xml_id
 msgid "External ID"
-msgstr ""
+msgstr "ID esterno"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__footer_html
 msgid "Extra Footer"
-msgstr ""
+msgstr "Extra piè di pagina"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__field_mapping_ids
 msgid "Field Mapping"
-msgstr ""
+msgstr "Mappatura campo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__field_variable_ids
 msgid "Field Variable"
-msgstr ""
+msgstr "Variabile campo"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid "Field mapping"
-msgstr ""
+msgstr "Mappatura campo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__domain
 msgid "Filter domain"
-msgstr ""
+msgstr "Filtra dominio"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__groups_id
 msgid "Groups"
-msgstr ""
+msgstr "Gruppi"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid "Help"
-msgstr ""
+msgstr "Aiuto"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__id
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__id
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__attachment_use
@@ -193,6 +206,8 @@ msgid ""
 "If enabled, then the second time the user prints with same attachment name, "
 "it returns the previous report."
 msgstr ""
+"Se abilitato, la seconda volta che l'utente stampa con lo stesso nome di "
+"allegato, viene restituito il resoconto precedente."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__encode_error_handling
@@ -200,6 +215,8 @@ msgid ""
 "If nothing is selected, CSV export will fail with an error message when "
 "there is a character that fail to be encoded."
 msgstr ""
+"Se non è selezionato nulla, l'esportazione del CSV fallirà con un messaggio "
+"di errore qando c'è un carattere che non può essere codificato."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__multi
@@ -207,73 +224,76 @@ msgid ""
 "If set to true, the action will not be displayed on the right toolbar of a "
 "form view."
 msgstr ""
+"Se impostato su true, l'azione non verrà visualizzata sulla barra degli "
+"strumenti destra di una visualizzazione modulo."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__domain
 msgid ""
 "If set, the action will only appear on records that matches the domain."
 msgstr ""
+"Se impostata, l'azione apparirà solo sui record che corrispondono al dominio."
 
 #. module: report_pdf_form
 #. odoo-python
 #: code:addons/report_pdf_form/models/ir_actions_report.py:0
 msgid "Invalid evaluation for Odoo field"
-msgstr ""
+msgstr "Valutazione errata per il campo Odoo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__write_uid
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__write_uid
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultimo aggiornamento di"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__write_date
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__write_date
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Ultimo aggiornamento il"
 
 #. module: report_pdf_form
 #: model:ir.model,name:report_pdf_form.model_report_pdf_form_field
 msgid "Mapping of Odoo field to PDF form field"
-msgstr ""
+msgstr "Mappatura del campo Odoo nel campo del modulo PDF"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__model_id
 msgid "Model"
-msgstr ""
+msgstr "Modello"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__model
 msgid "Model Name"
-msgstr ""
+msgstr "Nome modello"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__name
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: report_pdf_form
 #. odoo-python
 #: code:addons/report_pdf_form/models/ir_actions_report.py:0
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__odoo_field_evaluation
 msgid "Odoo Field Evaluation"
-msgstr ""
+msgstr "Valutazione campo Odoo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__odoo_field_value
 msgid "Odoo Field Value"
-msgstr ""
+msgstr "Valore campo Odoo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__multi
 msgid "On Multiple Doc."
-msgstr ""
+msgstr "Su documenti multipli"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__help
@@ -281,42 +301,44 @@ msgid ""
 "Optional help text for the users with a description of the target view, such"
 " as its usage and purpose."
 msgstr ""
+"Testo di aiuto opzionale per l'utente con una descrizione della vista "
+"obiettivo, come il suo utilizzo e obiettivo."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__pdf_field_name
 msgid "PDF Form Field Name"
-msgstr ""
+msgstr "Nome file modulo PDF"
 
 #. module: report_pdf_form
 #: model:ir.model,name:report_pdf_form.model_report_pdf_form
 msgid "PDF Form Report Template"
-msgstr ""
+msgstr "Modello resoconto modulo PDF"
 
 #. module: report_pdf_form
 #: model:ir.actions.act_window,name:report_pdf_form.report_pdf_form_action
 #: model:ir.ui.menu,name:report_pdf_form.report_pdf_form_menu
 msgid "PDF Form Reports"
-msgstr ""
+msgstr "Resoconti modulo PDF"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__paperformat_id
 msgid "Paper Format"
-msgstr ""
+msgstr "Formato carta"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__path
 msgid "Path to show in the URL"
-msgstr ""
+msgstr "Percorso per visualizzarlo nell'URL"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__print_report_name
 msgid "Printed Report Name"
-msgstr ""
+msgstr "Nome del resoconto stampato"
 
 #. module: report_pdf_form
 #: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__code
 msgid "Python code"
-msgstr ""
+msgstr "Codice Python"
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
@@ -324,57 +346,60 @@ msgid ""
 "Python code: Can be used to acces what you cannot using the Dotted field "
 "path. Following variables can be used:"
 msgstr ""
+"Codice Python: può essere utilizzato per accedere a ciò che non è possibile "
+"tramite il percorso del campo puntato. È possibile utilizzare le seguenti "
+"variabili:"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__pdf_attachment_id
 msgid "Related attachment"
-msgstr ""
+msgstr "Allegato relativo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__attachment_use
 msgid "Reload from Attachment"
-msgstr ""
+msgstr "Ricarica dall'allegato"
 
 #. module: report_pdf_form
 #: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__repeat_field
 msgid "Repeat field"
-msgstr ""
+msgstr "Ripeti campo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__report_id
 msgid "Report"
-msgstr ""
+msgstr "Resoconto"
 
 #. module: report_pdf_form
 #: model:ir.model,name:report_pdf_form.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Azione resoconto"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__report_file
 msgid "Report File"
-msgstr ""
+msgstr "File resoconto"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__report_form_id
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__report_form_id
 msgid "Report Form"
-msgstr ""
+msgstr "Modulo resoconto"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__report_type
 msgid "Report Type"
-msgstr ""
+msgstr "Tipo resoconto"
 
 #. module: report_pdf_form
 #: model:ir.model,name:report_pdf_form.model_report_pdf_form_variable
 msgid "Reusable variable to be evaluated in form fields code"
-msgstr ""
+msgstr "Variabile riutilizzabile da valutare nel codice dei campi del modulo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__attachment
 msgid "Save as Attachment Prefix"
-msgstr ""
+msgstr "Salva come prefisso allegato"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__binding_model_id
@@ -382,16 +407,18 @@ msgid ""
 "Setting a value makes this action available in the sidebar for the given "
 "model."
 msgstr ""
+"Impostare un valore rende questa azione disponibile nella barra laterale per "
+"il dato modello."
 
 #. module: report_pdf_form
 #: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__text
 msgid "Static text"
-msgstr ""
+msgstr "Testo statico"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__report_name
 msgid "Template Name"
-msgstr ""
+msgstr "Nome modello"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__report_file
@@ -399,6 +426,8 @@ msgid ""
 "The path to the main report file (depending on Report Type) or empty if the "
 "content is in another field"
 msgstr ""
+"Il percorso al file del resoconto principale (a seconda del tipo di "
+"resoconto) o vuoto se il contenuto è in un altro campo"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__report_type
@@ -408,11 +437,15 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Il tipo di resoconto che verrà generato, ognuno avente il suo metodo di "
+"generazione. HTML vuol dire che il resoconto sarà aperto direttamente nel "
+"tuo browser mentre PDF vuol dire che il resoconto sarà generato usando "
+"Wkhtmltopdf e scaricato dall'utente."
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid "There are two ways to fetch value from the object:"
-msgstr ""
+msgstr "Esistono due modi per recuperare il valore dall'oggetto:"
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__footer_html
@@ -420,6 +453,11 @@ msgid ""
 "This HTML will be displayed in the footer of this report.\n"
 "It's recommended to change Paper Format to a new one that fits correctly to this report by adjusting 'Bottom Margin (mm)' accordingly."
 msgstr ""
+"Questo codice HTML verrà visualizzato nel piè di pagina di questo resoconto."
+"\n"
+"Si consiglia di modificare il formato cartaceo in modo che si adatti "
+"correttamente a questo resoconto, modificando di conseguenza il "
+"\"Margine inferiore (mm)\"."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__attachment
@@ -428,6 +466,9 @@ msgid ""
 "Keep empty to not save the printed reports. You can use a python expression "
 "with the object and time variables."
 msgstr ""
+"Questo è il nome file dell'allegato utilizzato per memorizzare il risultato "
+"della stampa. Lasciare vuoto per non salvare il resoconti stampati. È "
+"possibile utilizzare un'espressione Python con le variabili oggetto e tempo."
 
 #. module: report_pdf_form
 #: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__print_report_name
@@ -436,14 +477,17 @@ msgid ""
 "change the report filename. You can use a python expression with the "
 "'object' and 'time' variables."
 msgstr ""
+"Questo è il nome del file del resoconto che verrà scaricato. Lasciare vuoto "
+"per non modificare il nome del file del resoconto. È possibile utilizzare "
+"un'espressione Python con le variabili \"object\" e \"time\"."
 
 #. module: report_pdf_form
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid "Variables"
-msgstr ""
+msgstr "Variabili"
 
 #. module: report_pdf_form
 #. odoo-python
 #: code:addons/report_pdf_form/models/ir_actions_report.py:0
 msgid "Yes"
-msgstr ""
+msgstr "Sì"
