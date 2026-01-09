@@ -128,6 +128,10 @@ Contributors
 
   - Aung Ko Ko Lin
 
+- `NuoBiT <https://www.nuobit.com>`__:
+
+  - Deniz Gallo dgallo@nuobit.com
+
 Maintainers
 -----------
 
