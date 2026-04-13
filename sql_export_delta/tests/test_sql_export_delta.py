@@ -21,6 +21,6 @@ class TestSqlExportDelta(test_sql_query.TestExportSqlQuery):
         with self.assertRaises(AssertionError):
             super().test_sql_query()
         self.assertTrue(self.sql_report_demo._export_delta_existing_tables())
-        uninstall_hook(self.env.cr, self.env.registry)
+        uninstall_hook(self.env)
         self.assertFalse(self.sql_report_demo._export_delta_existing_tables())
         return result

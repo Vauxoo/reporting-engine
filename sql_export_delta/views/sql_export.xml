@@ -7,10 +7,7 @@
         <field name="inherit_id" ref="sql_export.sql_export_view_form" />
         <field name="arch" type="xml">
             <field name="file_format" position="after">
-                <field
-                    name="export_delta"
-                    attrs="{'readonly': [('state', '!=', 'draft')]}"
-                />
+                <field name="export_delta" readonly="state != 'draft'" />
             </field>
         </field>
     </record>
