@@ -29,5 +29,4 @@
             "lxml"  # XML and HTML with Python
         ]
     },
-    "post_init_hook": "post_init_hook",
 }
