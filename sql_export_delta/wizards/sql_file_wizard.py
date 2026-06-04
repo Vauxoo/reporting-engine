@@ -11,4 +11,4 @@ class SqlFileWizard(models.TransientModel):
         self.ensure_one()
         if self.sql_export_id.export_delta:
             self = self.with_context(export_delta_id=self.id)
-        return super(SqlFileWizard, self).export_sql()
+        return super().export_sql()

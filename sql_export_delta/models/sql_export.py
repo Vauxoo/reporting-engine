@@ -87,7 +87,7 @@ class SqlExport(models.Model):
             (self._export_delta_table_name("%"),),
         )
         return sorted(
-            [name for name, in self.env.cr.fetchall()],
+            [name for (name,) in self.env.cr.fetchall()],
             key=lambda name: int(name[len(self._export_delta_table_name("")) :]),
         )
 
