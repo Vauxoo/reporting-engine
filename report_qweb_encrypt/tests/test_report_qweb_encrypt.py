@@ -48,4 +48,12 @@ class TestReportQwebEncrypt(HttpCase):
         pdf, _ = report.with_context(**ctx)._render_qweb_pdf(report.report_name, [1])
         self.assertTrue(pdf.count(b"/Encrypt"))
 
+    def test_report_qweb_encrypt_single_res_id(self):
+        """`res_ids` may be a single id instead of a list."""
+        ctx = {"force_report_rendering": True, "encrypt_password": "secretcode"}
+        report = self.env.ref("web.action_report_internalpreview")
+        report.encrypt = "manual"
+        pdf, _ = report.with_context(**ctx)._render_qweb_pdf(report.report_name, 1)
+        self.assertTrue(pdf.count(b"/Encrypt"))
+
     # TODO: test_report_qweb_manual_encrypt, require JS test?
